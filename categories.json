@@ -1,0 +1,85 @@
+{
+  "mcpServers": {
+    "manim-server": {
+      "command": "C:\\Users\\dangw\\Anaconda3\\python.exe",
+      "args": [
+        "C:\\Users\\dangw\\Desktop\\manim-mcp-server\\src\\manim_server.py"
+      ],
+      "env": {
+        "MANIM_EXECUTABLE": "C:\\Users\\dangw\\Anaconda3\\Scripts\\manim.exe"
+      },
+      "transport": "stdio",
+      "type": null,
+      "cwd": null,
+      "timeout": null,
+      "keep_alive": null,
+      "description": null,
+      "icon": null,
+      "authentication": null
+    },
+    "Demo Server": {
+      "command": "C:\\Users\\dangw\\Anaconda3\\Scripts\\uv.exe",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "C:\\Users\\dangw\\sem6\\expense_tracker_mcp_server\\main.py"
+      ],
+      "env": {},
+      "transport": "stdio",
+      "type": null,
+      "cwd": null,
+      "timeout": null,
+      "keep_alive": null,
+      "description": null,
+      "icon": null,
+      "authentication": null
+    },
+    "ExpenseTracker": {
+      "command": "C:\\Users\\dangw\\Anaconda3\\Scripts\\uv.exe",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "C:\\Users\\dangw\\sem6\\expense_tracker_mcp_server\\main.py"
+      ],
+      "env": {},
+      "transport": "stdio",
+      "type": null,
+      "cwd": null,
+      "timeout": null,
+      "keep_alive": null,
+      "description": null,
+      "icon": null,
+      "authentication": null
+    }
+  },
+  "coworkUserFilesPath": "C:\\Users\\dangw\\Claude",
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "coworkHipaaRestricted": false,
+    "ccdScheduledTasksEnabled": false,
+    "bypassPermissionsGateByAccount": {
+      "2a2c4708-e68f-4ec4-b795-adb1673bb093": false
+    },
+    "coworkWebSearchEnabled": true,
+    "coworkModelAutoFallbackByAccount": {
+      "2a2c4708-e68f-4ec4-b795-adb1673bb093": true
+    },
+    "remoteToolsDeviceName": "friday",
+    "epitaxyPrefs": {
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "customGroupAssignments": {},
+        "customGroupOrder": {}
+      }
+    }
+  }
+}
